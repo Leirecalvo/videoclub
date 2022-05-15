@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leirecalvo/Desktop/PROGRAMACIÓN/VIDEOCLUB/VideoClub/VideoClub/VideoClub.csproj": {}
+  },
+  "projects": {
+    "/Users/leirecalvo/Desktop/PROGRAMACIÓN/VIDEOCLUB/VideoClub/VideoClub/VideoClub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leirecalvo/Desktop/PROGRAMACIÓN/VIDEOCLUB/VideoClub/VideoClub/VideoClub.csproj",
+        "projectName": "VideoClub",
+        "projectPath": "/Users/leirecalvo/Desktop/PROGRAMACIÓN/VIDEOCLUB/VideoClub/VideoClub/VideoClub.csproj",
+        "packagesPath": "/Users/leirecalvo/.nuget/packages/",
+        "outputPath": "/Users/leirecalvo/Desktop/PROGRAMACIÓN/VIDEOCLUB/VideoClub/VideoClub/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/leirecalvo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
